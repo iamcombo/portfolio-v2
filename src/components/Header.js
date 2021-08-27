@@ -5,13 +5,15 @@ import styled from "styled-components";
 export default function HeaderComponent() {
   return (
     <Header>
-      <Image 
-        src='/assets/logo.svg'
-        width={85}
-        height={24}
-      />
+      <Link href='/'>
+        <Image 
+          src='/assets/logo.svg'
+          width={85}
+          height={24}
+        />
+      </Link>
       <HeaderItem>
-        <Link href='#project'>Projects</Link>
+        <Item href='#project'>Projects</Item>
         <Item href='#technologies'>Technologies</Item>
         <Item href='#about'>About</Item>
       </HeaderItem>
