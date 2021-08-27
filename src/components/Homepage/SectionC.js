@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'next/image';
 
 export default function SectionC_Component() {
   return (
@@ -9,17 +10,53 @@ export default function SectionC_Component() {
         <Text>I’ve worked with a range technologies in the web development world. From Frontend to Backend and Design</Text>
         <SubTitle>Front-end Technologies</SubTitle>
         <Frontend>
-          <Card></Card>
-          <Card></Card>
+          <Card>
+            <Image 
+              src='/assets/reactjs.svg'
+              width={171}
+              height={57}
+            />
+          </Card>
+          <Card>
+            <Image 
+              src='/assets/nextjs.svg'
+              width={171}
+              height={57}
+            />
+          </Card>
         </Frontend>
         <SubTitle>Back-end Technologies</SubTitle>
         <Backend>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
+          <Card>
+            <Image 
+              src='/assets/nodejs.png'
+              width={171}
+              height={140}
+            />
+          </Card>
+          <Card>
+            <Image 
+              src='/assets/expressjs.png'
+              width={171}
+              height={57}
+            />
+          </Card>
+          <Card>
+            <Image 
+              src='/assets/mongodb.png'
+              width={171}
+              height={57}
+            />
+          </Card>
         </Backend>
         <SubTitle>Design Technologies</SubTitle>
-        <Card></Card>
+        <Card>
+          <Image 
+            src='/assets/figma.png'
+            width={171}
+            height={80}
+          />
+        </Card>
       </Container>
     </SectionC>
   )
@@ -62,9 +99,12 @@ const Backend = styled.div`
   display: flex;
 `
 const Card = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 244px;
   height: 130px;
+  background-color: #FFF;
   border: 1px solid #FFC300;
-  background-color: #001D3D;
   margin-right: 10px;
 `

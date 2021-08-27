@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styled from 'styled-components';
-import HeaderComponent from '../components/Header';
+import Header from '../components/Header';
 import SectionA from '../components/Homepage/SectionA';
 import SectionB from '../components/Homepage/SectionB';
 import SectionC from '../components/Homepage/SectionC';
@@ -16,7 +16,7 @@ export default function HomeComponent() {
       </Head>
 
       <Home>
-        <HeaderComponent />
+        <Header />
         <SectionA />
       </Home>
       <SectionB />
