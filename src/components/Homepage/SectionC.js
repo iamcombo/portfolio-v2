@@ -31,7 +31,7 @@ export default function SectionC_Component() {
             <Image 
               src='/assets/nodejs.png'
               width={171}
-              height={140}
+              height={57}
             />
           </Card>
           <Card>
