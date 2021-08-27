@@ -29,10 +29,7 @@ export default function SectionD_Component() {
             <svg
               id="visual"
               viewBox="0 0 900 600"
-              width="900"
-              height="600"
               xmlns="http://www.w3.org/2000/svg"
-              // xmlns:xlink="http://www.w3.org/1999/xlink"
               version="1.1"
             >
               <g transform="translate(456.3962412599541 334.95986728076224)">

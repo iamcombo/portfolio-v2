@@ -10,9 +10,7 @@ export default function SectionA_Component() {
           <p>A Programmer who is ready to learn and adapt. Web Developer based in Cambodia. JavaScript / Vue.js / Nuxt.js / React.js / Next.js</p>
           <BtnResume>Download Resume</BtnResume>
         </LeftSide>
-        <div>
-
-        </div>
+        <div></div>
       </SectionA>
     </Container>
   )
