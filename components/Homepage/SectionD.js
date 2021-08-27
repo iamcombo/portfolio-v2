@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default function SectionD_Component() {
   return (
-    <SectionD>
+    <SectionD id='about'>
       <Container>
         <Line />
         <Title>About Me</Title>

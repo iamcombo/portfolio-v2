@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from "styled-components";
 import Image from 'next/image'
 
@@ -10,9 +11,9 @@ export default function HeaderComponent() {
         height={24}
       />
       <HeaderItem>
-        <Item>Projects</Item>
-        <Item>Technologies</Item>
-        <Item>About</Item>
+        <Link href='#project'>Projects</Link>
+        <Item href='#technologies'>Technologies</Item>
+        <Item href='#about'>About</Item>
       </HeaderItem>
     </Header>
   )
@@ -31,7 +32,7 @@ const HeaderItem = styled.div`
   display: flex;
   justify-content: space-evenly;
 `
-const Item = styled.span`
+const Item = styled(Link)`
   font-size: 14px;
   font-weight: 700;
 `
