@@ -8,7 +8,11 @@ export default function SectionA_Component() {
           <h1>Welcome to</h1>
           <h2>My Personal Portfolio</h2>
           <p>A Programmer who is ready to learn and adapt. Web Developer based in Cambodia. JavaScript / Vue.js / Nuxt.js / React.js / Next.js</p>
-          <BtnResume>Download Resume</BtnResume>
+          <BtnResume>
+            <a href='https://github.com/iamcombo/portfolio-v2/blob/main/Resume%20Web%20Developer.pdf' rel='noreferrer' target='_blank'>
+            Download Resume
+            </a>
+          </BtnResume>
         </LeftSide>
         <div></div>
       </SectionA>
