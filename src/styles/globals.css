@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
 html,
 body {
   padding: 0;
@@ -8,14 +9,18 @@ body {
   background-color: #001D3D;
   color: #FFF;
   scroll-behavior: smooth;
-  /* overflow-x: hidden;s */
+  /* overflow-x: hidden; */
+  scrollbar-width: thin;
+  scrollbar-color: #90A4AE transparent;
 }
-
+body::-webkit-scrollbar-thumb {
+  background-color: #90A4AE;
+  border-radius: 6px;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
-
 * {
   box-sizing: border-box;
 }
